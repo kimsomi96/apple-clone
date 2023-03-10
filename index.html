@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="style.css" rel="stylesheet"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Title</title>
 </head>
 <body>
@@ -43,30 +44,45 @@
             <p>400GB/s memory bandwidth</p>
         </div>
     </div>
-    <h3 class="tc">Introducing the next generation of Apple silicon for pros: The lightning-fast M2 Pro and the
+    <h3 data-aos="fade-in"
+        data-aos-duration="500" class="tc">Introducing the next generation of Apple silicon for pros: The lightning-fast
+        M2 Pro and the
         extraordinary M2 Max — the most powerful and efficient chip ever in a pro laptop.</h3>
-    <button>Go inside M2 Pro and M2 Max</button>
+    <button data-aos="fade-in"
+            data-aos-duration="500">Go inside M2 Pro and M2 Max
+    </button>
 </div>
 <div class="m2_info">
-    <h2>M2 Pro</h2>
+    <h2 class="gradient blue">M2 Pro</h2>
     <p class="bold">M2 Pro brings power to take on even more demanding projects. The up to 12‑core CPU and
         next‑generation Neural Engine make pro workflows fly — from sorting and editing thousands of images to
         running computational fluid dynamics simulations. And the up to 19‑core GPU drives a huge boost in graphics
         performance for both work and play.</p>
 </div>
 <div class="spec_section ss1">
-    <div class="spec spec_right">Up to 19-core GPU</div>
-    <div class="spec spec_left">Up to 32GB unified memory</div>
-    <div class="spec spec_right">200B/s memory bandwidth</div>
-    <div class="spec spec_left">Support for up to two external displays</div>
-    <div class="spec spec_right">Up to 23 streams of 4K ProRes video playback</div>
+    <div data-aos="fade-up"
+         data-aos-duration="2000" class="spec spec_right">Up to 19-core GPU
+    </div>
+    <div data-aos="fade-up"
+         data-aos-duration="2000" class="spec spec_left">Up to 32GB unified memory
+    </div>
+    <div data-aos="fade-up"
+         data-aos-duration="2000" class="spec spec_right">200B/s memory bandwidth
+    </div>
+    <div data-aos="fade-up"
+         data-aos-duration="2000" class="spec spec_left">Support for up to two external displays
+    </div>
+    <div data-aos="fade-up"
+         data-aos-duration="2000" class="spec spec_right">Up to 23 streams of 4K ProRes video playback
+    </div>
 </div>
 <div class="laptop">
     <img src="src/img/m2_laptop_hw__c84jsepabw2u_large.jpg"/>
-    <img src="src/img/screen_processing__f36dk3ge7wey_large.jpg"/>
+    <img data-aos="fade-in" data-aos-delay="300"
+         data-aos-duration="1000" src="src/img/screen_processing__f36dk3ge7wey_large.jpg"/>
 </div>
 <div class="m2_info">
-    <h2>M2 Max</h2>
+    <h2 class="gradient purple">M2 Max</h2>
     <p>The most powerful and efficient chip ever in a pro laptop, M2 Max is engineered to help pros push the boundaries
         of their ingenuity and creativity. With the same next‑generation 12‑core CPU as M2 Pro, M2 Max has twice the
         memory bandwidth, up to three times the unified memory, and up to 38 GPU cores. So you can render effects, merge
@@ -81,13 +97,15 @@
 </div>
 <div class="laptop">
     <img src="src/img/m2_laptop_hw__c84jsepabw2u_large.jpg"/>
-    <img src="src/img/screen_processing__f36dk3ge7wey_large.jpg"/>
+    <img data-aos="fade-in" data-aos-delay="300"
+         data-aos-duration="1000" src="src/img/screen_processing__f36dk3ge7wey_large.jpg"/>
 </div>
 <div class="m2_info">
     <h2>Choose your size.<br/>Choose your chip.<br/>Let it rip.</h2>
 </div>
 <div class="laptop">
-    <img src="src/img/choose_size__b11uc4j8f36u_large.jpg"/>
+    <img data-aos="fade-in" data-aos-delay="300"
+         data-aos-duration="1000" class="editor" src="src/img/choose_size__b11uc4j8f36u_large.jpg"/>
 </div>
 <div class="m2_info">
     <p>MacBook Pro is available in 14- and 16‑inch models. Each can be configured with the <span>M2 Pro</span> or <span>M2 Max</span>
@@ -102,11 +120,12 @@
     </div>
 </div>
 <div class="m2_info">
-    <h2>We can do this all day.</h2>
+    <h2 class="wecan">We can do this all day.</h2>
 </div>
 <div class="laptop">
     <img src="src/img/m2_laptop_hw__c84jsepabw2u_large.jpg"/>
-    <img src="src/img/screen_processing__f36dk3ge7wey_large.jpg"/>
+    <img data-aos="fade-in" data-aos-delay="300"
+         data-aos-duration="1000" src="src/img/screen_all_day__do6bv6lam4cy_large.jpg"/>
 </div>
 <div class="m2_info">
     <p>The 16‑inch model has the <span>longest battery life ever in a Mac.</span> And both models remain just as fast
@@ -114,36 +133,57 @@
         or whenever duty calls, run with it.</p>
 </div>
 <section class="model_info">
-    <h2>14" model</h2>
-    <p>Up to</p>
-    <span class="big bold">18</span><span>hrs</span>
-    <p>video playback</p>
-    <p>Up to</p>
-    <span class="big bold">12</span><span>hrs</span>
-    <p>video playback</p>
-    <h2>14" model</h2>
-    <p>Up to</p>
-    <span class="big bold">22</span><span>hrs</span>
-    <p>video playback</p>
-    <p>Up to</p>
-    <span class="big bold">15</span><span>hrs</span>
-    <p>wireless web browsing</p>
+    <div>
+        <h3>14" model</h3>
+        <div class="coltoflex">
+            <div>
+                <p>Up to</p>
+                <span class="big bold">18</span><span class="hrs">hrs</span>
+                <p>video playback</p>
+            </div>
+            <div>
+                <p>Up to</p>
+                <span class="big bold">12</span><span class="hrs">hrs</span>
+                <p>wireless web <br/>browsing</p>
+            </div>
+        </div>
+    </div>
+    <div>
+        <h3>16" model</h3>
+        <div class="coltoflex">
+            <div>
+                <p>Up to</p>
+                <span class="big bold">22</span><span class="hrs">hrs</span>
+                <p>video playback</p></div>
+            <div>
+                <p>Up to</p>
+                <span class="big bold">15</span><span class="hrs">hrs</span>
+                <p>wireless web <br/>browsing</p>
+            </div>
+        </div>
+    </div>
 </section>
-<section class="gray_box">
-    <p><span>The coolest part.</span> Thanks to the efficiency of Apple silicon, the fans don’t even have to turn on for
-        most of your daily tasks. And for heavier workflows, the advanced thermal systems move air at low fan speeds.
-    </p>
-    <img src="src/img/coolest_part__cbnbxzlxzliu_large.jpg"/>
-</section>
-<section class="gray_box">
-    <p><span>Think huge.</span> MacBook Pro is built on an all-flash storage architecture designed to make everyday
-        tasks snappy and responsive. For demanding workflows with large files, configurations up to 8TB deliver even
-        more performance</p>
-    <h3>Up to</h3>
-    <h2>8TB</h2>
-    <h3>SSD storage</h3>
-</section>
-<section class="m2_info">
+<div class="coltorow ctr2">
+    <section class="gray_box">
+        <p><span>The coolest part.</span> Thanks to the efficiency of Apple silicon, the fans don’t even have to turn on
+            for
+            most of your daily tasks. And for heavier workflows, the advanced thermal systems move air at low fan
+            speeds.
+        </p>
+        <img class="img1" src="src/img/coolest_part__cbnbxzlxzliu_large.jpg"/>
+    </section>
+    <section class="gray_box">
+        <p><span>Think huge.</span> MacBook Pro is built on an all-flash storage architecture designed to make everyday
+            tasks snappy and responsive. For demanding workflows with large files, configurations up to 8TB deliver even
+            more performance</p>
+        <div class="text_box">
+            <h3>Up to</h3>
+            <h2>8TB</h2>
+            <h3>SSD storage</h3>
+        </div>
+    </section>
+</div>
+<section class="m2_info smooth">
     <h2>Smooth operator.</h2>
     <p><span>macOS Ventura</span> was designed to maximize the capabilities of Apple silicon. So your go-to pro apps run
         <span>faster</span>, and multitasking is <span>smoother than ever</span>. With over 15,000 optimized apps and
@@ -151,21 +191,27 @@
         further.</p>
     <a href="#" class="blue">Learn more about macOS Ventura ></a>
 </section>
-<section class="m2_info">
+<section class="m2_info display">
     <h2>The best display ever in a laptop.</h2>
     <div class="laptop">
         <img src="src/img/m2_laptop_hw__c84jsepabw2u_large.jpg"/>
-        <img src="src/img/screen_processing__f36dk3ge7wey_large.jpg"/>
+        <img data-aos="fade-in" data-aos-delay="300"
+             data-aos-duration="1000" src="src/img/screen_xdr__fksbj0zqvtu2_large.jpg"/>
     </div>
-    <p><span>Liquid Retina XDR</span>. Extreme Dynamic Range brings refined specular highlights, incredible detail in
-        shadows, and vibrant, true‑to‑life colors. Each display is calibrated in the factory and features pro reference
-        modes for HDR color grading, photography, design, and print production.</p>
-    <p><span>ProMotion</span>. Making everything from scrolling to gaming superfluid and responsive, ProMotion
-        automatically adjusts to match the movement of content — with refresh rates up to 120Hz. Video editors can also
-        choose a fixed refresh rate that precisely aligns with their footage.
+    <div class="coltorow">
+        <p><span>Liquid Retina XDR</span>. Extreme Dynamic Range brings refined specular highlights, incredible detail
+            in
+            shadows, and vibrant, true‑to‑life colors. Each display is calibrated in the factory and features pro
+            reference
+            modes for HDR color grading, photography, design, and print production.</p>
+        <p><span>ProMotion</span>. Making everything from scrolling to gaming superfluid and responsive, ProMotion
+            automatically adjusts to match the movement of content — with refresh rates up to 120Hz. Video editors can
+            also
+            choose a fixed refresh rate that precisely aligns with their footage.
 
-    </p>
-    <a href="#" class="blue">Learn more about macOS Ventura ></a>
+        </p>
+    </div>
+<!--    <a href="#" class="blue">Le -arn more about macOS Ventura ></a>-->
 </section>
 <section class="nums">
     <h2>1,000</h2>
@@ -179,31 +225,47 @@
     <h2>1,000,000,000</h2>
     <p>colors</p>
 </section>
-<section class="img">
-    <img src="src/img/xdr_pixels__fy02mv4k06qi_large.jpg"/>
+<section class="img flex">
+    <div>
+        <p>16.2"</p>
+        <p>3456 by 2234</p>
+        <p>7.7 million pixels</p>
+        <p>254 ppi</p>
+    </div>
+    <div>
+        <p>14.2"</p>
+        <p>3024 by 1964</p>
+        <p>5.9 million pixels</p>
+        <p>254 ppi</p>
+    </div>
 </section>
 <section class="m2_info">
     <h2>Far and away your sharpest look.</h2>
     <div class="laptop">
         <img src="src/img/m2_laptop_hw__c84jsepabw2u_large.jpg"/>
-        <img src="src/img/screen_processing__f36dk3ge7wey_large.jpg"/>
+        <img data-aos="fade-in" data-aos-delay="300"
+             data-aos-duration="1000" src="src/img/screen_camera__ktj6pssy70a6_large.jpg"/>
     </div>
     <p><span>Look sharp wherever you make or take video calls</span> — whether you’re connecting with friends and family
         across time zones or collaborating with colleagues out in the field. <span>The 1080p camera</span> uses a wide
         aperture to let in more light, combined with a large image sensor for better performance in low light.</p>
 </section>
-<section class="gray_box">
-    <p><span>Studio‑quality three-mic array.</span> With a signal-to-noise ratio that rivals professional-grade
-        microphones, MacBook Pro can capture even the subtlest sounds. And directional beamforming minimizes background
-        noise so your voice comes through loud and clear.</p>
-    <img src="src/img/studio_quality__fq5ktn1pzg6e_large.jpg"/>
-</section>
-<section class="gray_box">
-    <p><span>Six-speaker sound system.</span> Four force‑cancelling woofers deliver deeper bass and room‑filling sound.
-        High-performance tweeters project clearer, fuller vocals. And Spatial Audio creates a sophisticated
-        three-dimensional soundstage when you’re playing music or video with Dolby Atmos.</p>
-    <img src="src/img/spatial_audio__dipr8iji32uu_large.jpg"/>
-</section>
+<div class="coltorow">
+    <section class="gray_box audio">
+        <p><span>Studio‑quality three-mic array.</span> With a signal-to-noise ratio that rivals professional-grade
+            microphones, MacBook Pro can capture even the subtlest sounds. And directional beamforming minimizes
+            background
+            noise so your voice comes through loud and clear.</p>
+        <img class="img1" src="src/img/studio_quality__fq5ktn1pzg6e_large.jpg"/>
+    </section>
+    <section class="gray_box audio">
+        <p><span>Six-speaker sound system.</span> Four force‑cancelling woofers deliver deeper bass and room‑filling
+            sound.
+            High-performance tweeters project clearer, fuller vocals. And Spatial Audio creates a sophisticated
+            three-dimensional soundstage when you’re playing music or video with Dolby Atmos.</p>
+        <img class="img2" src="src/img/spatial_audio__dipr8iji32uu_large.jpg"/>
+    </section>
+</div>
 <section class="m2_info">
     <h2>Plug and play.</h2>
     <p>Transfer photos and videos with an SDXC card reader. Connect to TVs or displays with HDMI output, which now
@@ -219,45 +281,57 @@
 <section class="m2_info">
     <p><span>Expand your screen real estate.</span> Connect up to three Pro Display XDRs and a 4K TV with M2 Max. Or
         connect up to two Pro Display XDRs with M2 Pro.</p>
-    <img src="src/img/devices__j6pw246wn5ua_large.jpg"/>
+    <img src="src/img/devices__j6pw246wn5ua_large.jpg" alt=""/>
 </section>
 <section class="m2_info">
     <h2>The magic touch.</h2>
-    <p>The <span>Magic Keyboard</span> comes with a full-height function key row and <span>Touch ID</span>, which gives
+    <p class="wide_none">The <span>Magic Keyboard</span> comes with a full-height function key row and
+        <span>Touch ID</span>, which gives
         you a fast, easy, secure way to unlock your Mac and sign in to apps and sites.</p>
 </section>
-<section class="gray_box np">
+<div class="col">
     <img src="src/img/keyboard__0zc8gxnp2gy2_small.jpg"/>
+    <section class="touch_id">
+        <div class="flex">
+            <img src="src/img/icon_touch_id__flkroa7447qm_large.png"/>
+            <h2>Touch ID</h2>
+        </div>
+        <div class="flex">
+            <img src="src/img/icon_unlock__fr2w8lt1hjam_large.png"/>
+            <p>Unlock your Mac</p>
+        </div>
+        <div class="flex">
+            <img src="src/img/icon_passkeys__buwc8zyx66vm_large.png"/>
+            <p>Sign in to apps and<br/> websites with passkeys</p>
+        </div>
+        <div class="flex">
+            <img src="src/img/icon_apple_pay__bksexh8in98i_large.png"/>
+            <p>Use Apple Pay<br/> for payments</p>
+        </div>
+        <div class="flex">
+            <img src="src/img/icon_apple_tv__e68oh47mge82_large.png"/>
+            <p>Make purchases on the<br/> Apple TV app</p>
+        </div>
+    </section>
+</div>
+<section class="m2_info">
+    <p class="wide_block">The <span>Magic Keyboard</span> comes with a full-height function key row and
+        <span>Touch ID</span>, which gives
+        you a fast, easy, secure way to unlock your Mac and sign in to apps and sites.</p>
 </section>
-<section class="touch_id">
-    <div class="flex">
-        <img src="src/img/icon_touch_id__flkroa7447qm_large.png"/>
-        <h2>Touch ID</h2>
+<section class="gray_box2 ar">
+    <div class="info">
+        <img class="icon" src="src/img/icon_ar__c4m67bi51tg2_large.png"/>
+        <h2>Use AR to see<br/> MacBook Pro in<br/> your workspace.</h2>
+        <p>Open this page using Safari on your iPhone or iPad.</p><br/>
+        <div>
+            <span><button class="silver_btn on"></button><p>Space Gray</p></span>
+            <span><button class="spacegray_btn"></button><p>Silver</p></span>
+        </div>
     </div>
-    <div class="flex">
-        <img src="src/img/icon_unlock__fr2w8lt1hjam_large.png"/>
-        <p>Unlock your Mac</p>
-    </div>
-    <div class="flex">
-        <img src="src/img/icon_passkeys__buwc8zyx66vm_large.png"/>
-        <p>Sign in to apps and<br/> websites with passkeys</p>
-    </div>
-    <div class="flex">
-        <img src="src/img/icon_apple_pay__bksexh8in98i_large.png"/>
-        <p>Use Apple Pay<br/> for payments</p>
-    </div>
-    <div class="flex">
-        <img src="src/img/icon_apple_tv__e68oh47mge82_large.png"/>
-        <p>Make purchases on the<br/> Apple TV app</p>
-    </div>
-</section>
-<section class="gray_box2 np">
-    <img class="icon" src="src/img/icon_ar__c4m67bi51tg2_large.png"/>
-    <h2>Use AR to see<br/> MacBook Pro in<br/> your workspace.</h2>
-    <p>Open this page using Safari on your iPhone or iPad.</p>
     <div class="color">
-        <img src="src/img/ar_silver_16__cp1ac34nczyq_large.jpg"/>
-        <img src="src/img/ar_spacegray_16__c60uab45ehqq_large.jpg"/>
+        <img class="silver on" src="src/img/ar_silver_16__cp1ac34nczyq_large.jpg"/>
+        <img class="spacegray" src="src/img/ar_spacegray_16__c60uab45ehqq_large.jpg"/>
     </div>
 </section>
 
@@ -265,7 +339,8 @@
     <div class="bg_box gray trade long">
         <h3>Apple Trade In</h3>
         <h2>Get credit toward a new MacBook Pro.</h2>
-        <p>Just trade in your eligible computer for credit toward a new one or recycle it for free. It’s good for you and the planet.*</p>
+        <p>Just trade in your eligible computer for credit toward a new one or recycle it for free. It’s good for you
+            and the planet.*</p>
         <a href="#" class="blue">Learn more ></a>
         <img class="" src="src/img/trade_in__f7nl7wvwnvu6_large.jpg"/>
     </div>
@@ -277,67 +352,81 @@
         <img src="src/img/apple_card__bgmwon6rg8qa_large.jpg"/>
     </div>
 </section>
-<section class="gray_box2">
+<section class="gray_box2 prod">
     <h2>Which Mac laptop<br/> is right for you?</h2>
     <a href="#" class="blue">Compare all Mac models ></a>
-    <div class="flex">
-        <div class="product">
-            <img src="src/img/compare_mba__cfqvrps1ce2q_large.png"/>
-            <img src="src/img/compare_3_swatches__blaf7pjsd79e_large.png"/>
-            <h3>MacBook Air</h3>
-            <p>M1 chip</p>
-            <p>From $83.25/mo. for 12 mo. or $999**</p>
-            <p>13.3-inch Retina display22</p>
-            <p>Apple M1 chip</p>
-            <p>8GB or 16GB unified memory</p>
-            <p>256GB to 2TB storage17</p>
-            <p>Up to 18 hours battery life23</p>
-            <p>Touch ID</p>
-            <button class="buy_btn">Buy</button>
+    <div class="flex_prod">
+        <div class="flex prod">
+            <div class="product">
+                <img class="mac" src="src/img/compare_mba__cfqvrps1ce2q_large.png"/><br/>
+                <img class="colors" src="src/img/compare_3_swatches__blaf7pjsd79e_large.png"/>
+                <div>
+                    <h3>MacBook Air</h3>
+                    <p>M1 chip</p>
+                    <p>From $83.25/mo. for 12 mo. or $999**</p>
+                    <p>13.3-inch <br/>Retina display22</p>
+                    <p>Apple M1 chip</p>
+                    <p>8GB or<br/>16GB unified memory</p>
+                    <p>256GB to <br/>2TB storage17</p>
+                    <p>Up to <br/>18 hours battery life23</p>
+                    <p>Touch ID</p>
+                    <button class="buy_btn">Buy</button>
+                    <br/>
+                    <a href="#" class="blue">Learn more ></a>
+                </div>
+            </div>
+            <div class="product">
+                <img class="mac" src="src/img/compare_mba_m2__dvmgh93mqumq_large.png"/><br/>
+                <img class="colors" src="src/img/compare_4_swatches__oge1gnst99eq_large.png"/>
+                <div>
+                    <h3>MacBook Air</h3>
+                    <p>M2 chip</p>
+                    <p>From $99.91/mo. for 12 mo. or $1199**</p>
+                    <p>13.6-inch <br/>Liquid Retina display22</p>
+                    <p>Apple M2 chip</p>
+                    <p>8GB to <br/>24GB unified memory</p>
+                    <p>256GB to <br/>2TB storage17</p>
+                    <p>Up to<br/>18 hours battery life24</p>
+                    <p>Touch ID</p>
+                    <button class="buy_btn">Buy</button>
+                    <br/>
+                    <a href="#" class="blue">Learn more ></a>
+                </div>
+            </div>
         </div>
-        <div class="product">
-            <img src="src/img/compare_mba_m2__dvmgh93mqumq_large.png"/>
-            <img src="src/img/compare_4_swatches__oge1gnst99eq_large.png"/>
-            <h3>MacBook Air</h3>
-            <p>M1 chip</p>
-            <p>From $83.25/mo. for 12 mo. or $999**</p>
-            <p>13.3-inch Retina display22</p>
-            <p>Apple M1 chip</p>
-            <p>8GB or 16GB unified memory</p>
-            <p>256GB to 2TB storage17</p>
-            <p>Up to 18 hours battery life23</p>
-            <p>Touch ID</p>
-            <button class="buy_btn">Buy</button>
-        </div>
-    </div>
-    <div class="flex">
-        <div class="product">
-            <img src="src/img/compare_mbp_13__e5kpzyu3ocae_large.png"/>
-            <img src="src/img/compare_2_swatches__lcqcwqqrbt2m_large.png"/>
-            <h3>MacBook Air</h3>
-            <p>M1 chip</p>
-            <p>From $83.25/mo. for 12 mo. or $999**</p>
-            <p>13.3-inch Retina display22</p>
-            <p>Apple M1 chip</p>
-            <p>8GB or 16GB unified memory</p>
-            <p>256GB to 2TB storage17</p>
-            <p>Up to 18 hours battery life23</p>
-            <p>Touch ID</p>
-            <button class="buy_btn">Buy</button>
-        </div>
-        <div class="product">
-            <img src="src/img/compare_mbp_14_16__gmmsi44wmpea_large.png"/>
-            <img src="src/img/compare_2_swatches__lcqcwqqrbt2m_large.png"/>
-            <h3>MacBook Air</h3>
-            <p>M1 chip</p>
-            <p>From $83.25/mo. for 12 mo. or $999**</p>
-            <p>13.3-inch Retina display22</p>
-            <p>Apple M1 chip</p>
-            <p>8GB or 16GB unified memory</p>
-            <p>256GB to 2TB storage17</p>
-            <p>Up to 18 hours battery life23</p>
-            <p>Touch ID</p>
-            <button class="buy_btn">Buy</button>
+        <div class="flex prod">
+            <div class="product">
+                <img class="mac" src="src/img/compare_mbp_13__e5kpzyu3ocae_large.png"/><br/>
+                <img class="colors" src="src/img/compare_2_swatches__lcqcwqqrbt2m_large.png"/>
+                <div>
+                    <h3>MacBook Pro 13”</h3>
+                    <p>From $108.25/mo. for 12 mo. or $1299**</p>
+                    <p>13.3-inch <br/>Retina display22</p>
+                    <p>Apple M2 chip</p>
+                    <p>8GB to <br/>24GB unified memory</p>
+                    <p>256GB to <br/>2TB storage17</p>
+                    <p>Up to <br/>20 hours battery life25</p>
+                    <p>Touch Bar and Touch ID</p>
+                    <button class="buy_btn">Buy</button>
+                    <br/>
+                    <a href="#" class="blue">Learn more ></a>
+                </div>
+            </div>
+            <div class="product last">
+                <img class="mac" src="src/img/compare_mbp_14_16__gmmsi44wmpea_large.png"/><br/>
+                <img class="colors" src="src/img/compare_2_swatches__lcqcwqqrbt2m_large.png"/>
+                <div>
+                    <h3>MacBook Pro<br/> 14” and 16”</h3>
+                    <p>From $166.58/mo. for 12 mo. or $1999**</p>
+                    <p>14.2-inch or 16.2-inch Liquid Retina XDR display22</p>
+                    <p>Apple M2 Pro or Apple M2 Max chip</p>
+                    <p>16GB to<br/>96GB unified memory</p>
+                    <p>512GB to<br/>8TB storage17</p>
+                    <p>Up to<br/>22 hours battery life16</p>
+                    <p>Touch ID</p>
+                    <button class="buy_btn">Buy</button>
+                </div>
+            </div>
         </div>
     </div>
 </section>
@@ -360,7 +449,8 @@
     <div class="bg_box gray">
         <img class="icon" src="src/img/icon_environment__c8bakommdwya_large.png"/>
         <h2>Designed with the <br/><span>earth</span> in mind.</h2>
-        <p>100 percent recycled aluminum enclosure and rare earth elements in all magnets. Responsible packaging. A greener
+        <p>100 percent recycled aluminum enclosure and rare earth elements in all magnets. Responsible packaging. A
+            greener
             supply chain. MacBook Pro was engineered to minimize its environmental impact.</p>
         <a href="#" class="blue">Learn more about Apple and <br/>the environment ></a>
     </div>
@@ -378,5 +468,11 @@
         <a href="#">Learn about Apple and Education ></a>
     </div>
 </section>
+
+<script src="script.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
 </body>
 </html>
