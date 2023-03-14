@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="style.css" rel="stylesheet"/>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="
+https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
+" rel="stylesheet">
     <title>Title</title>
 </head>
 <body>
@@ -60,20 +63,15 @@
         performance for both work and play.</p>
 </div>
 <div class="spec_section ss1">
-    <div data-aos="fade-up"
-         data-aos-duration="2000" class="spec spec_right">Up to 19-core GPU
+    <div class="spec spec_right">Up to 19-core GPU
     </div>
-    <div data-aos="fade-up"
-         data-aos-duration="2000" class="spec spec_left">Up to 32GB unified memory
+    <div class="spec spec_left">Up to 32GB unified memory
     </div>
-    <div data-aos="fade-up"
-         data-aos-duration="2000" class="spec spec_right">200B/s memory bandwidth
+    <div class="spec spec_right">200B/s memory bandwidth
     </div>
-    <div data-aos="fade-up"
-         data-aos-duration="2000" class="spec spec_left">Support for up to two external displays
+    <div class="spec spec_left">Support for up to two external displays
     </div>
-    <div data-aos="fade-up"
-         data-aos-duration="2000" class="spec spec_right">Up to 23 streams of 4K ProRes video playback
+    <div class="spec spec_right">Up to 23 streams of 4K ProRes video playback
     </div>
 </div>
 <div class="laptop">
@@ -98,25 +96,70 @@
 <div class="laptop">
     <img src="src/img/m2_laptop_hw__c84jsepabw2u_large.jpg"/>
     <img data-aos="fade-in" data-aos-delay="300"
-         data-aos-duration="1000" src="src/img/screen_processing__f36dk3ge7wey_large.jpg"/>
+         data-aos-duration="1000" src="src/img/m2_hardware_endframe__btklvmcg91yu_large.jpg"/>
 </div>
-<div class="m2_info">
+<div class="m2_info rip">
     <h2>Choose your size.<br/>Choose your chip.<br/>Let it rip.</h2>
 </div>
-<div class="laptop">
     <img data-aos="fade-in" data-aos-delay="300"
          data-aos-duration="1000" class="editor" src="src/img/choose_size__b11uc4j8f36u_large.jpg"/>
-</div>
 <div class="m2_info">
     <p>MacBook Pro is available in 14- and 16‑inch models. Each can be configured with the <span>M2 Pro</span> or <span>M2 Max</span>
         chip and
         offers next-level pro performance in a laptop.</p>
 </div>
-<div class="gray_box">
+<div class="gray_box compare">
     <h2>See how M2 Pro and M2 Max stack up compared to Intel‑based MacBook Pro.</h2>
     <div class="btn_box flex">
-        <span>14" model</span>
+        <span class="on">14" model</span>
         <span>16" model</span>
+    </div>
+    <div class="splide" role="group">
+        <div class="splide__track">
+            <ul class="splide__list">
+                <li class="splide__slide">Video transcoding / </li>
+                <li class="splide__slide">Video editing / </li>
+                <li class="splide__slide">Image upscaling / </li>
+                <li class="splide__slide">Code compiling / </li>
+                <li class="splide__slide">Photo editing / </li>
+                <li class="splide__slide">Motion graphics</li>
+            </ul>
+        </div>
+    </div>
+    <div class="tab">
+        <h2>Faster ProRes transcode performance in Final Cut Pro3</h2>
+        <div class="bar_section">
+            <span data-aos="fade-right" data-aos-easing="ease-in"
+                  data-aos-delay="50"  style="background: linear-gradient(45deg,#e1cdff,#a56cff 50%,#5a00ff);"></span>
+            <h3 style="color:#a56cff;">15.9x</h3>
+        </div>
+        <p>MacBook Pro with
+            M2 Max</p>
+        <div class="bar_section">
+            <span data-aos="fade-right" data-aos-easing="ease-in"
+                  data-aos-delay="150"  style="background: linear-gradient(45deg,#ccefff,#60cafc 50%,#2f65ff);width:55%;"></span>
+            <h3 style="color:#2f65ff;">11.6x</h3>
+        </div>
+        <p>MacBook Pro with
+            M2 Pro</p>
+        <div class="bar_section">
+            <span data-aos="fade-right" data-aos-easing="ease-in"
+                  data-aos-delay="250" style="background: linear-gradient(45deg,#f5f5f7,#363638);width:65%;"></span>
+        </div>
+        <p class="gray">MacBook Pro with
+            M1 Max</p>
+        <div class="bar_section">
+            <span data-aos="fade-right" data-aos-easing="ease-in"
+                  data-aos-delay="350" style="background: linear-gradient(45deg,#f5f5f7,#363638);width:50%;"></span>
+        </div>
+        <p class="gray">MacBook Pro with
+            M1 Pro</p>
+        <div class="bar_section">
+            <span data-aos="fade-right"  data-aos-easing="ease-in"
+                  data-aos-delay="450"  style="background:#f5f5f7;width:5%;"></span>
+        </div>
+        <p class="gray">MacBook Pro with Intel Core i7
+            (baseline)</p>
     </div>
 </div>
 <div class="m2_info">
@@ -198,7 +241,7 @@
         <img data-aos="fade-in" data-aos-delay="300"
              data-aos-duration="1000" src="src/img/screen_xdr__fksbj0zqvtu2_large.jpg"/>
     </div>
-    <div class="coltorow">
+    <div class="coltorow retina">
         <p><span>Liquid Retina XDR</span>. Extreme Dynamic Range brings refined specular highlights, incredible detail
             in
             shadows, and vibrant, true‑to‑life colors. Each display is calibrated in the factory and features pro
@@ -239,7 +282,7 @@
         <p>254 ppi</p>
     </div>
 </section>
-<section class="m2_info">
+<section class="m2_info far">
     <h2>Far and away your sharpest look.</h2>
     <div class="laptop">
         <img src="src/img/m2_laptop_hw__c84jsepabw2u_large.jpg"/>
@@ -272,13 +315,24 @@
         <span>supports up to 8K</span>. Plug in accessories and additional displays using three Thunderbolt 4 ports. And
         enjoy up to <span>two times faster throughput</span> with Wi‑Fi 6E.21</p>
 </section>
-<section class="gray_box np">
-    <img src="src/img/ports__f7ao9iz63h6y_small.jpg"/>
+<section class="gray_box np plug">
+<!--    <img src="src/img/ports__f7ao9iz63h6y_small.jpg"/>-->
+    <div class="upper">
+        <p>Headphone jack</p>
+        <p>Thunderbolt 4</p>
+        <p>MagSafe 3</p>
+    </div>
+    <div class="lower">
+        <p>SDXC</p>
+        <p>Thunderbolt 4</p>
+        <p>HDMI</p>
+    </div>
 </section>
-<section class="gray_box np">
-    <img src="src/img/magsafe__wkeiwwe9e36i_small.jpg"/>
+<section class="gray_box np magsafe">
+<!--    <img src="src/img/magsafe__wkeiwwe9e36i_small.jpg"/>-->
+    <p>MagSafe 3</p>
 </section>
-<section class="m2_info">
+<section class="m2_info coltorow2 expand">
     <p><span>Expand your screen real estate.</span> Connect up to three Pro Display XDRs and a 4K TV with M2 Max. Or
         connect up to two Pro Display XDRs with M2 Pro.</p>
     <img src="src/img/devices__j6pw246wn5ua_large.jpg" alt=""/>
@@ -289,8 +343,9 @@
         <span>Touch ID</span>, which gives
         you a fast, easy, secure way to unlock your Mac and sign in to apps and sites.</p>
 </section>
-<div class="col">
-    <img src="src/img/keyboard__0zc8gxnp2gy2_small.jpg"/>
+<div class="coltorow keyboard">
+    <img class="wide_none" src="src/img/keyboard__0zc8gxnp2gy2_small.jpg"/>
+    <img class="wide_block" src="src/img/keyboard__0zc8gxnp2gy2_large.jpg"/>
     <section class="touch_id">
         <div class="flex">
             <img src="src/img/icon_touch_id__flkroa7447qm_large.png"/>
@@ -330,8 +385,8 @@
         </div>
     </div>
     <div class="color">
-        <img class="silver on" src="src/img/ar_silver_16__cp1ac34nczyq_large.jpg"/>
-        <img class="spacegray" src="src/img/ar_spacegray_16__c60uab45ehqq_large.jpg"/>
+        <img class="silver" src="src/img/ar_silver_16__cp1ac34nczyq_large.jpg"/>
+        <img class="spacegray on" src="src/img/ar_spacegray_16__c60uab45ehqq_large.jpg"/>
     </div>
 </section>
 
@@ -471,6 +526,9 @@
 
 <script src="script.js"></script>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="
+https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js
+"></script>
 <script>
     AOS.init();
 </script>
