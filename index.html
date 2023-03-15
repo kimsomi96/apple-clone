@@ -5,9 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="style.css" rel="stylesheet"/>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link href="
-https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
-" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel="stylesheet">
     <title>Title</title>
 </head>
 <body>
@@ -63,15 +61,23 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
         performance for both work and play.</p>
 </div>
 <div class="spec_section ss1">
-    <div class="spec spec_right">Up to 19-core GPU
+    <div class="spec_div spec_left">
+        <div></div>
+        <div class="spec" data-aos="fade-up"
+             data-aos-duration="1000">Up to 32GB unified memory</div>
+        <div></div>
+        <div class="spec" data-aos="fade-up"
+             data-aos-duration="1000">Support for up to two external displays</div>
     </div>
-    <div class="spec spec_left">Up to 32GB unified memory
-    </div>
-    <div class="spec spec_right">200B/s memory bandwidth
-    </div>
-    <div class="spec spec_left">Support for up to two external displays
-    </div>
-    <div class="spec spec_right">Up to 23 streams of 4K ProRes video playback
+    <div class="spec_div spec_right">
+        <div class="spec" data-aos="fade-up"
+             data-aos-duration="1000">Up to 19-core GPU</div>
+        <div></div>
+        <div class="spec" data-aos="fade-up"
+             data-aos-duration="1000">200B/s memory bandwidth</div>
+        <div></div>
+        <div class="spec" data-aos="fade-up"
+             data-aos-duration="1000">Up to 23 streams of 4K ProRes video playback</div>
     </div>
 </div>
 <div class="laptop">
@@ -87,11 +93,24 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
         massive panoramas, and design extreme 3D geometry on an unprecedented scale.</p>
 </div>
 <div class="spec_section ss2">
-    <div class="spec spec_right">Up to 38-core GPU</div>
-    <div class="spec spec_left">Up to 96GB unified memory</div>
-    <div class="spec spec_right">400B/s memory bandwidth</div>
-    <div class="spec spec_left">Support for up to four external displays</div>
-    <div class="spec spec_right">Up to 10 streams of 8K ProRes video playback</div>
+    <div class="spec_div spec_left">
+        <div></div>
+        <div class="spec" data-aos="fade-up"
+             data-aos-duration="1000">Up to 38-core GPU</div>
+        <div></div>
+        <div class="spec" data-aos="fade-up"
+             data-aos-duration="1000">Support for up to four external displays</div>
+    </div>
+    <div class="spec_div spec_right">
+        <div class="spec" data-aos="fade-up"
+             data-aos-duration="1000">Up to 96GB unified memory</div>
+        <div></div>
+        <div class="spec" data-aos="fade-up"
+             data-aos-duration="1000">400B/s memory bandwidth</div>
+        <div></div>
+        <div class="spec" data-aos="fade-up"
+             data-aos-duration="1000">Up to 10 streams of 8K ProRes video playback</div>
+    </div>
 </div>
 <div class="laptop">
     <img src="src/img/m2_laptop_hw__c84jsepabw2u_large.jpg"/>
@@ -101,8 +120,8 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
 <div class="m2_info rip">
     <h2>Choose your size.<br/>Choose your chip.<br/>Let it rip.</h2>
 </div>
-    <img data-aos="fade-in" data-aos-delay="300"
-         data-aos-duration="1000" class="editor" src="src/img/choose_size__b11uc4j8f36u_large.jpg"/>
+<img data-aos="fade-in" data-aos-delay="300"
+     data-aos-duration="1000" class="editor" src="src/img/choose_size__b11uc4j8f36u_large.jpg"/>
 <div class="m2_info">
     <p>MacBook Pro is available in 14- and 16‑inch models. Each can be configured with the <span>M2 Pro</span> or <span>M2 Max</span>
         chip and
@@ -114,14 +133,30 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
         <span class="on">14" model</span>
         <span>16" model</span>
     </div>
-    <div class="splide" role="group">
+    <div class="wide_block">
+        <ul class="func_info">
+            <div class="flex">
+                <li class="on">Video transcoding</li><li>&nbsp;/&nbsp</li>
+                <li>Video editing</li><li>&nbsp;/&nbsp</li>
+            </div>
+            <div class="flex">
+                <li>Image upscaling</li><li>&nbsp;/&nbsp</li>
+                <li>Code compiling</li><li>&nbsp;/&nbsp</li>
+            </div>
+            <div class="flex">
+                <li>Photo editing</li><li>&nbsp;/&nbsp</li>
+                <li>Motion graphics</li>
+            </div>
+        </ul>
+    </div>
+    <div class="splide wide_none" role="group">
         <div class="splide__track">
             <ul class="splide__list">
-                <li class="splide__slide">Video transcoding / </li>
-                <li class="splide__slide">Video editing / </li>
-                <li class="splide__slide">Image upscaling / </li>
-                <li class="splide__slide">Code compiling / </li>
-                <li class="splide__slide">Photo editing / </li>
+                <li class="splide__slide">Video transcoding /</li>
+                <li class="splide__slide">Video editing /</li>
+                <li class="splide__slide">Image upscaling /</li>
+                <li class="splide__slide">Code compiling /</li>
+                <li class="splide__slide">Photo editing /</li>
                 <li class="splide__slide">Motion graphics</li>
             </ul>
         </div>
@@ -130,14 +165,15 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
         <h2>Faster ProRes transcode performance in Final Cut Pro3</h2>
         <div class="bar_section">
             <span data-aos="fade-right" data-aos-easing="ease-in"
-                  data-aos-delay="50"  style="background: linear-gradient(45deg,#e1cdff,#a56cff 50%,#5a00ff);"></span>
+                  data-aos-delay="50" style="background: linear-gradient(45deg,#e1cdff,#a56cff 50%,#5a00ff);"></span>
             <h3 style="color:#a56cff;">15.9x</h3>
         </div>
         <p>MacBook Pro with
             M2 Max</p>
         <div class="bar_section">
             <span data-aos="fade-right" data-aos-easing="ease-in"
-                  data-aos-delay="150"  style="background: linear-gradient(45deg,#ccefff,#60cafc 50%,#2f65ff);width:55%;"></span>
+                  data-aos-delay="150"
+                  style="background: linear-gradient(45deg,#ccefff,#60cafc 50%,#2f65ff);width:55%;"></span>
             <h3 style="color:#2f65ff;">11.6x</h3>
         </div>
         <p>MacBook Pro with
@@ -155,8 +191,8 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
         <p class="gray">MacBook Pro with
             M1 Pro</p>
         <div class="bar_section">
-            <span data-aos="fade-right"  data-aos-easing="ease-in"
-                  data-aos-delay="450"  style="background:#f5f5f7;width:5%;"></span>
+            <span data-aos="fade-right" data-aos-easing="ease-in"
+                  data-aos-delay="450" style="background:#f5f5f7;width:5%;"></span>
         </div>
         <p class="gray">MacBook Pro with Intel Core i7
             (baseline)</p>
@@ -254,7 +290,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
 
         </p>
     </div>
-<!--    <a href="#" class="blue">Le -arn more about macOS Ventura ></a>-->
+    <!--    <a href="#" class="blue">Le -arn more about macOS Ventura ></a>-->
 </section>
 <section class="nums">
     <h2>1,000</h2>
@@ -316,7 +352,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
         enjoy up to <span>two times faster throughput</span> with Wi‑Fi 6E.21</p>
 </section>
 <section class="gray_box np plug">
-<!--    <img src="src/img/ports__f7ao9iz63h6y_small.jpg"/>-->
+    <!--    <img src="src/img/ports__f7ao9iz63h6y_small.jpg"/>-->
     <div class="upper">
         <p>Headphone jack</p>
         <p>Thunderbolt 4</p>
@@ -329,7 +365,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
     </div>
 </section>
 <section class="gray_box np magsafe">
-<!--    <img src="src/img/magsafe__wkeiwwe9e36i_small.jpg"/>-->
+    <!--    <img src="src/img/magsafe__wkeiwwe9e36i_small.jpg"/>-->
     <p>MagSafe 3</p>
 </section>
 <section class="m2_info coltorow2 expand">
